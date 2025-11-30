@@ -4,7 +4,7 @@ Short description
 This project contains an ETL pipeline for a NYC taxi sample dataset and instructions to reproduce a Power BI dashboard shown in the screenshot below.
 
 Screenshot
-Place your dashboard screenshot at `images/nyc_taxi.png` (or update the path).  
+Place your dashboard screenshot at `C:\Users\Islem\OneDrive\Desktop\nyc-taxi-etl-dashboard\Taxi_dw\Dashboard\nyc taxi.png` (or update the path).  
 ![NYC Taxi Dashboard](C:\Users\Islem\OneDrive\Desktop\nyc-taxi-etl-dashboard\Taxi_dw\Dashboard\nyc taxi.png)
 
 Architecture (high level)
