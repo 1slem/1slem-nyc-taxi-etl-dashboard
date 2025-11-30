@@ -7,6 +7,19 @@ Screenshot
 
 ![NYC Taxi Dashboard](Dashboard/nyc%20taxi.png)
 
+
+## Requirements
+
+The project requires the following Python packages:
+
+```txt
+pandas>=2.2.0
+numpy>=1.24.0
+pyarrow>=19.0.0
+python-dateutil>=2.8.0
+pytz>=2025.0
+
+
 Architecture (high level)
 - Extract: read raw CSV from `data_source/echantillon.csv` and write extraction artifacts to `output/extract/`.
 - Transform: clean and enrich data in `Scripts_ETL/transform.py`; results go to `output/transform/`.
@@ -51,15 +64,3 @@ How to reproduce the Power BI dashboard (quick steps)
    - Bar chart: trips by borough or payment type.
    - Map visual: pickup/dropoff density (use ArcGIS/Map or built-in map visual).
    - Filters/slicers: date range, borough, payment type.
-
-5. Styling & layout
-   - Use consistent color palette, set titles and tooltips, format currency for revenue.
-   - Add a small textbox with data refresh instructions (e.g., run ETL scripts before refresh).
-
-Dashboard screenshot
-![NYC Taxi Dashboard](Dashboard/nyc%20taxi.png)
-
-Next steps (optional)
-- Add a requirements.txt (pandas, pyarrow, etc.).
-- Add a small sample PBIX file or Power BI template (.pbit) with the visuals.
-- Add automation to export cleaned data for Power BI refresh (e.g., scheduled task or API).
