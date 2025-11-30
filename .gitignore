@@ -1,0 +1,15 @@
+﻿# Python
+__pycache__/
+*.pyc
+.env
+venv/
+# Data / outputs
+output/
+*.parquet
+*.csv
+*.db
+# IDE
+.vscode/
+.idea/
+# OS
+.DS_Store

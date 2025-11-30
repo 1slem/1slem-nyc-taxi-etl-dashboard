@@ -1,0 +1,10 @@
+2025-04-26 17:48:06,367 - INFO - Données chargées : 2000000 lignes
+2025-04-26 17:48:07,226 - WARNING - Anomalies détectées : 212052 lignes
+2025-04-26 17:48:07,237 - INFO - Détail des anomalies :
+rejection_reason
+Passagers invalides           137684
+Distance hors limites          47189
+Montant de course invalide     23820
+Vitesse irréaliste              2658
+Durée invalide                   701
+2025-04-26 17:48:13,021 - INFO - Anomalies sauvegardées : C:\Users\ASUS\Desktop\Taxi_dw\output\transform\anomalies_20250426_174812.parquet
