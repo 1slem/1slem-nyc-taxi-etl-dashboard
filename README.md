@@ -56,10 +56,8 @@ How to reproduce the Power BI dashboard (quick steps)
    - Use consistent color palette, set titles and tooltips, format currency for revenue.
    - Add a small textbox with data refresh instructions (e.g., run ETL scripts before refresh).
 
-Where to put the screenshot
-- Create an `images/` folder at the project root and copy `nyc taxi.png` into it, renaming to `nyc_taxi.png` is recommended.
-- If you keep the original name, update the image link in this README accordingly:
-  `![NYC Taxi Dashboard](images/nyc%20taxi.png)`
+Dashboard screenshot
+![NYC Taxi Dashboard](Dashboard/nyc%20taxi.png)
 
 Next steps (optional)
 - Add a requirements.txt (pandas, pyarrow, etc.).
