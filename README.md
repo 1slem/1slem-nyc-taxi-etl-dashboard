@@ -12,7 +12,7 @@ Screenshot
 
 The project requires the following Python packages:
 
-```txt
+
 pandas>=2.2.0
 numpy>=1.24.0
 pyarrow>=19.0.0
