@@ -5,7 +5,7 @@ This project contains an ETL pipeline for a NYC taxi sample dataset and instruct
 
 Screenshot
 
-![NYC Taxi Dashboard](Dashboard/nyc_taxi.png)
+![NYC Taxi Dashboard](Dashboard/nyc%20taxi.png)
 
 Architecture (high level)
 - Extract: read raw CSV from `data_source/echantillon.csv` and write extraction artifacts to `output/extract/`.
